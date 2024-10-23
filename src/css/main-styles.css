@@ -1,0 +1,56 @@
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+  list-style-type: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: rgb(177, 173, 173);
+}
+.contant {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_gallery {
+  background-color: rgb(8, 251, 251);
+  border-radius: 10px;
+  padding: 40px;
+  cursor: pointer;
+}
+.btn_gallery:hover {
+  background-color: rgb(132, 255, 0);
+  border-color: rgb(0, 21, 255);
+  border-width: 3px;
+}
+.a_gallery {
+  color: black;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.a_gallery:hover {
+  color: black;
+}
+.btn_form {
+  background-color: rgb(132, 255, 0);
+  border-radius: 10px;
+  padding: 40px 50px 40px 50px;
+  cursor: pointer;
+}
+.btn_form:hover {
+  background-color: rgb(8, 251, 251);
+  border-color: red;
+  border-width: 3px;
+}
