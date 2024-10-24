@@ -64,7 +64,9 @@ const images = [
   },
 ];
 
-import SimpleLightbox from './node_modules/simplelightbox/dist/simple-lightbox.esm.min.js';
+// Описаний в документації
+import SimpleLightbox from 'simplelightbox';
+// Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
